@@ -1,37 +1,5 @@
 // test script JS pour le dossier PORTFOLIO - en mode Bootstrap
 
-
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@Baianissima
-StartBootstrap /
-startbootstrap-freelancer
-Public template
-
-95
-2.3k
-
-    3.4k
-
-Code
-Issues 4
-Pull requests 1
-Actions
-Security
-
-    Insights
-
-startbootstrap-freelancer/dist/js/scripts.js /
-@davidtmiller
-davidtmiller Bootstrap 5.1.3 dependency update
-Latest commit c14d7c0 19 days ago
-History
-1 contributor
-54 lines (46 sloc) 1.61 KB
 /*!
 * Start Bootstrap - Freelancer v7.0.5 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2021 Start Bootstrap
@@ -87,18 +55,4 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Loading complete
+   

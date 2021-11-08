@@ -1,0 +1,32 @@
+/* Styles pour la page portfolio /// pisola */
+
+body {
+    margin: 0;
+    padding: 0;
+    /* 100 vh view height la hauteur de l'écran 100 % de l'écran  */
+    height: 100vh;
+}
+
+#accueil {
+    min-height: 750px;
+}
+
+/* l'avatar dans la partie accueil */
+.imgProfil {
+    width: 150px;
+}
+
+/* taille des images dans la section services  */
+.imgServices {
+    width: 120px;
+    height: 120px;
+}
+
+.titreContact {
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+footer {
+    padding: 40px 0 10px 0;
+}

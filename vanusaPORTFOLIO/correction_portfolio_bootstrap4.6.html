@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Patrick Isola, Colombbus</title>
+
+    <!-- CSS Boostrap 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Mes styles -->
+    <link rel="stylesheet" href="../vanusaPORTFOLIO/styles.css/correction_portfolio_bootstrap4.6.css">
+
+</head>
+<body>
+    <!-- ===============-->
+    <!-- Navbar -->
+    <!-- ===============-->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <!-- ml-auto : margin left automatique mettra le bouton à droite -->
+        <!-- aria-controls : pour l'accessibilité //  aria-expanded="false" : on démarre avec le menu qui n'est pas étendu donc on démarre à false // navbar-toggler-icon le .svg du burger-->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- collapse navbar-collapse : pour le masquer ou pas // id="navbarToggler" qui est ciblé plus haut ds data-target-->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <!-- d-flex : tout est flex dans la ul // justify-content-center align-items-center centré horizontalement et verticalement -->
+            <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link text-dark">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link text-dark">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link text-dark">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link text-dark">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-dark">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===============-->
+    <!-- Accueil -->
+    <!-- ===============-->
+
+    <div class="bg-dark text-white text-center d-flex flex-column align-items-center w-100 h-75 p-3 mx-auto" id="accueil">
+        <!-- mt-auto // pour centrer verticalement 2 éléments, en flex en mode colonne les 2 éléments vont se partager l'espace en hauteur -->
+        <div class="mt-auto">
+            <img src="img/man.svg" alt="avatar Patrick Isola Colombbus" class="imgProfil">
+            <h1>Salut, moi c'est Patrick</h1>
+            <p class="lead">Je suis encadrant technique & formateur à Colombbus</p>
+            <p class="lead">
+                <a href="#apropos" class="btn btn-sm btn-secondary">En savoir plus</a>
+            </p>
+        </div>
+
+        <div class="mt-auto">
+            <p class="lead">Per aspera ad astra</p>
+        </div>
+
+    </div>
+    <!-- fin div accueil  -->
+
+    <!-- ===============-->
+    <!-- Portfolio -->
+    <!-- ===============-->
+    <!-- py-5 padding en haut et en bas -->
+    <div class="py-5" id="portfolio">
+        <h2 class="text-center mb-5 text-uppercase">Portfolio</h2>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- col card 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/ReactTwitch.png" alt="React Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Cloner Twitch avec React</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/animation.jpg" alt="UX Design Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Ux Design</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/MeteoApp.png" alt="Appli météo Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Application</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/SiteMenu.png" alt="Design responsive Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Responsive Design</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/SiteResPic.jpg" alt="Site web Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Site web pour particulier</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/Visu.jpg" alt="Visualisation de données Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Visualisation de données</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 7 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/js.jpg" alt="Java Script Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Java Script</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 8 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/grid.jpg" alt="Grille css Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Grille CSS</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 9 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/bulma.jpg" alt="Bulma Patrick Isola Colombbus" class="card-img-top">
+                        <div class="card-body">
+
+                            <h4>Framework Bulma</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt vitae cupiditate, dolores voluptatem distinctio!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le code
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Voir le projet
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+            </div>
+            <!-- fin row  -->
+        </div>
+        <!-- fin container  -->
+    </div>
+    <!-- fin div portfolio -->
+
+
+    <!-- ===============-->
+    <!-- À propos -->
+    <!-- ===============-->
+
+    <section class="bg-dark text-white" id="apropos">
+        <div class="container py-5">
+
+            <h2 class="text-center text-uppercase text-white">À propos</h2>
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-lg-4">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci quibusdam officiis ipsam enim amet quas, tempore animi praesentium veritatis explicabo, quod atque fugiat accusantium in, dicta dolor aliquam assumenda ex fuga quia voluptatibus nulla. Illum perspiciatis ratione libero numquam.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci quibusdam officiis ipsam enim amet quas, tempore animi praesentium veritatis explicabo, quod atque fugiat accusantium in, dicta dolor aliquam assumenda ex fuga quia voluptatibus nulla. Illum perspiciatis ratione libero numquam.</p>
+                </div>
+                
+            </div>
+            <!-- fin row  -->
+
+            <div class="text-center">
+                <a href="#contact" class="btn btn-xl btn-outline-light">Contactez-moi</a>
+            </div>
+
+        </div>
+        <!-- fin container  -->
+    </section>
+    <!-- fin section à propos -->
+
+    <!-- ===============-->
+    <!-- Services -->
+    <!-- ===============-->
+
+    <h2 class="text-center text-uppercase my-5">Mes services</h2>
+    
+    <div class="container">
+        <!-- justify content center pour centre sur l'axe des y -->
+        <div class="row d-flex justify-content-center">
+
+            <!-- on centre sur l'axe des x les éléments contenus dans les colonnes -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/vue.png" alt="Vue Patrick Isola Colombbus" class="imgServices">
+                <h2 class="text-center">Vue</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem commodi quasi mollitia dicta nesciunt consectetur enim provident suscipit est placeat in harum, velit doloribus officiis saepe necessitatibus quam quia ad. Aut, architecto voluptatum? Enim doloremque ullam incidunt natus, quos similique.</p>
+                <a href="#" class="btn btn-secondary mb-4">Voir mes projets</a>
+            </div>
+            <!-- fin col -->
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/angular-icon.svg" alt="Angular Patrick Isola Colombbus" class="imgServices">
+                <h2 class="text-center">Angular</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem commodi quasi mollitia dicta nesciunt consectetur enim provident suscipit est placeat in harum, velit doloribus officiis saepe necessitatibus quam quia ad. Aut, architecto voluptatum? Enim doloremque ullam incidunt natus, quos similique.</p>
+                <a href="#" class="btn btn-secondary mb-4">Voir mes projets</a>
+            </div>
+            <!-- fin col -->
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/React.png" alt="React Patrick Isola Colombbus" class="imgServices">
+                <h2 class="text-center">React</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem commodi quasi mollitia dicta nesciunt consectetur enim provident suscipit est placeat in harum, velit doloribus officiis saepe necessitatibus quam quia ad. Aut, architecto voluptatum? Enim doloremque ullam incidunt natus, quos similique.</p>
+                <a href="#" class="btn btn-secondary mb-4">Voir mes projets</a>
+            </div>
+            <!-- fin col -->
+        </div>
+        <!-- fin row  -->
+
+    </div>
+    <!-- fin container  -->
+
+    <!-- ===============-->
+    <!-- Contact -->
+    <!-- ===============-->
+
+    <section class="bg-dark text-white" id="contact">
+
+        <div class="container">
+            <h2 class="text-center titreContact">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-10 mx-auto">
+
+                    <form action="" method="POST" id="contactForm">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="prenom">Prénom *</label>
+                                    <input type="text" name="prenom" id="prenom" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="nom">Nom *</label>
+                                    <input type="text" name="nom" id="nom" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin row nom prénom -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" name="email" id="email" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin row email -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="message">Votre message *</label>
+                                    <textarea name="message" id="message" cols="30" rows="4" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="submit" name="envoyez" value="Envoyez" class="btn btn-md btn-success">
+                            </div>
+                        </div>
+                        <!-- fin row message et bouton -->
+                    </form>
+
+                </div>
+                <!-- fin col -->
+            </div>
+            <!-- fin row  -->
+        </div>
+        <!-- fin container  -->
+    </section>
+
+    <!-- ===============-->
+    <!-- Pied de page -->
+    <!-- ===============-->
+
+    <footer class="bg-dark text-white">
+        <p class="text-center">
+            Tout droits réservés - Pisola, Colombbus
+        </p>
+    </footer>
+
+    
+    <!-- JS etc. de Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <!-- Mon JS -->
+    <!-- <script src="app_atelier.js"></script> pisola n a pas evoye son js --> 
+
+</body>
+</html>
