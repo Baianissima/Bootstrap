@@ -1,0 +1,95 @@
+body {
+    background-color: seashell;
+  }
+  
+  /* Flexbox est une solution pr  ligner ls éléments de façon horizotale ms aussi verticale . comme float, flex va permettre d'afficher ls éléments ls uns à côté ds autes */
+  
+  .rouge {
+    width: 100px;
+    background-color: red;
+    color: white;
+  }
+  
+  .orange {
+    width: 100px;
+    background-color: orangered;
+    color: white;
+  }
+  
+  .orangeClair {
+    width: 100px;
+    background-color: orange;
+  }
+  
+  .jaune {
+    width: 100px;
+    background-color: rgb(255, 230, 0);
+  }
+  
+  .jc-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+  
+  .jc-around {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+  }
+  
+  .jc-between {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  
+  .ordre {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+  }
+  
+  .rouge .rouge {
+    order: -2;
+  }
+  
+  .rouge .orangeClair {
+    order: 2;
+  }
+  
+  .stretch {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: stretch;
+  }
+  
+  .baseline {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: baseline;
+  }
+  
+  .flexStart {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start;
+  }
+  
+  .flexEnd {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-end;
+  }
+  
+  .Center {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+  }
+  
